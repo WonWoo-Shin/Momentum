@@ -1,0 +1,103 @@
+.hidden {
+    display : none;
+}
+
+#weather{
+    color: white;
+    font-size: 20px;
+    height: 20px;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px 30px 30px 30px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#clock{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 250px;
+    display: grid;
+    grid-template-rows: 200px 50px;
+    grid-template-columns: 400px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#clockMain{
+    font-size: 170px;
+}
+
+#clockSub{
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+#calendar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+}
+
+#login{
+    text-align: center;
+    margin: 20px;
+}
+
+#greeting{
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#todoButton{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+#todoButton:hover{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px 30px 30px 30px;
+}
+
+#todo{
+    text-align: center;
+    margin: 20px;
+}
+
+#todoArea{
+    margin-top: 20px;
+}
+
+#todoList{
+    list-style: none;
+    color : white;
+    font-size: 25px;
+}
+#todoList button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+img{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-5;
+    filter: brightness(70%);
+    position: fixed;
+}
